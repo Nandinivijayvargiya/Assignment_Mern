@@ -3,8 +3,7 @@ var array=[];
   for(var i=0;i<size;i++)
     {	  
       array[i]=prompt("Enter the array:");
-	
-	}
+    }
 	console.log(array);
       var max=array[0];
 	    for(var i=0;i<size;i++)
@@ -14,5 +13,5 @@ var array=[];
 				max=array[i];
 			}
 		}
-		alert("The maximum is:"+" "+max);
-		console.log(max);
+		  alert("The maximum is:"+" "+max);
+		  console.log(max);
