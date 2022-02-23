@@ -67,6 +67,10 @@ header .dropdown-trigger
 {
     display: none;
 }
+.second-level-dp:hover .second-level-dp-content
+{
+    position: absolute;
+}
 .second-level-dp-content
 {
     display: none;
