@@ -1,0 +1,72 @@
+body
+{
+    background-image: url('./images/background-image.jpg') ;
+    background-size: cover;
+}
+.main-div
+{
+    margin-top: 250px;
+    margin-left: 300px;
+    width: 1000px;
+    border: 1px solid rgba(135,206,235,0.5);
+    border-radius: 40px;
+     animation: 5s infinite alternate index_animation;
+  
+}
+@keyframes index_animation {
+    from {
+        margin-left: -50px;
+    }
+    to {
+        margin-left: 520px;
+    }
+}
+.main-div span
+{
+    display: inline-block;
+}
+
+.main-div .login a
+{
+
+    border-radius: 5px;
+    color:rgb(255, 10, 84);
+    font-weight: bolder;
+    font-size: xx-large;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 200px;
+}
+.main-div .registration a
+{
+
+    border-radius: 5px;
+    color:rgb(255, 10, 84);
+    font-weight: bolder;
+    font-size: xx-large;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 250px;
+}
+
+
+.main-div .login:hover
+{
+    width: 350px;
+    background-color:rgb(255, 133, 161);
+    color:blueviolet;
+    border: 1px solid rgba(135,206,235,0.5);
+    border-radius: 50px;
+}
+.main-div:hover .registration
+{
+    position: absolute;
+}
+.main-div .registration:hover
+{
+    width: 700px;
+    background-color:rgb(255, 133, 161);
+    color:blueviolet;
+    border: 1px solid rgba(135,206,235,0.5);
+    border-radius: 50px;
+}
