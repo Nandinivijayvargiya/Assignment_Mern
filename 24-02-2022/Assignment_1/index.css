@@ -1,0 +1,77 @@
+body
+{
+    background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 61%, rgba(252,176,69,1) 100%);
+    margin: 0px;
+}
+.main-div
+{
+    background: #020106;
+    background: -webkit-radial-gradient(left, #020106, #4F5150);
+    background: -moz-radial-gradient(left, #020106, #4F5150);
+    background: radial-gradient(to right, #020106, #4F5150);
+    height: 1500px;
+    width: 1200px;
+    position: relative;
+    left:150px;
+    top:50px;
+    border-radius: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    opacity: 0.9;
+}
+.img-portfolio
+{
+    height: 50px;
+    position: relative;
+    left:30px;
+    top:30px;
+}
+.img-portfolio+a
+{
+    color:white;
+    position: relative;
+    left:40px;
+    top:10px;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.header-links
+{
+    position: relative;
+    font-size: large;
+    font-weight: bolder;
+    color:white;
+    top:10px;
+    left:530px;
+    animation: 5s alternate infinite head;
+}
+
+.header-links a
+{
+    display: inline-block;
+    margin-left: 50px;
+    cursor: pointer;
+}
+@keyframes head {
+    from {
+        margin-left: -50px;
+    }
+    to {
+        margin-left: 80px;
+    }
+}
+.header-links a:hover
+{
+    height: 40px;
+    width:60px;
+    text-align: center;
+    background: #DD2729;
+    background: -webkit-radial-gradient(center, #DD2729, #12AEF2);
+    background: -moz-radial-gradient(center, #DD2729, #12AEF2);
+    background: radial-gradient(ellipse at center, #DD2729, #12AEF2);
+    color:white;
+    border-radius: 50%;
+    padding: 25px 10px 10px 10px;
+}
