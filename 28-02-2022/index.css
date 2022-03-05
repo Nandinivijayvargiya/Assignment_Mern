@@ -1,0 +1,14 @@
+body>button
+{
+    display: inline-block;
+    height: 50px;
+    background-color:#264653;
+    color:white;
+    border: none;
+    border-radius: 25px;
+    margin-left: 650px;
+}
+body>button:hover
+{
+   cursor: pointer;
+}
