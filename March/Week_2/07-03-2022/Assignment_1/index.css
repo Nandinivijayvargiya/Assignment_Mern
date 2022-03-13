@@ -1,0 +1,220 @@
+body
+{
+    background-image: linear-gradient(to right, #053734, #005f4b, #258955, #62b251, #abd943);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 0px;
+}
+header.top
+{
+    width: 100vw;
+    background-color: #f8f8f8;
+}
+header .top>input
+{
+    display:inline-block;
+    height: 50px;
+    width: 100vw;
+    background-color: #f8f8f8;
+    border: none;
+}
+.top .seacrh-img
+{
+    display: inline-block;
+    background-color: #f8f8f8;
+    position: relative;
+    top:45px;
+    left: 40px;
+    height: 30px;
+    padding-left: 10px;
+}
+.top .seacrh-img>img
+{
+    height: 20px;
+    cursor: pointer;
+}
+.top>[placeholder="Search here"]
+{
+    padding-left: 80px;
+    font-size: larger;
+}
+content
+{
+    height: 100vh;
+    width: 100vw;
+}
+content button
+{
+     background-color: #f8f8f8;
+
+}
+content >.top-content
+{
+    position: relative;
+    top:20px;
+}
+.top-content>button
+{
+    height: 50px;
+    width: 100px;
+    background-color: #f8f8f8;
+    border: none;
+    cursor: pointer;
+}
+.top-content>button:first-child
+{
+    margin-left: 900px;
+    display: inline-block;
+    position: relative;
+}
+.top-content .different
+{
+    display: inline-block;
+    background-color: #f8f8f8;
+    position: relative;
+    left:80px;
+    cursor: pointer;
+}
+.all-css
+{
+    border: none;
+    height: 50px;
+    width: 100px;
+    border-right: 1px solid lightgrey;
+}
+.middle-content>span
+{
+    display: inline-block;
+    height: 80px;
+    width: 250px;
+    position: relative;
+    top:50px;
+    margin-left: 90px;
+    padding-top: 10px;
+    padding-left: 5px;
+    color:white;
+    font-size: larger;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+.div-main
+{
+    display: inline-block;
+    background-color:#f7f7f7;
+    position: absolute;
+    top:350px;
+    margin-left: -260px;
+    height: 700px;
+    width: 300px;
+}
+.all-para p
+{
+    padding-left: 10px;
+    padding-top: 30px;
+    font-weight: bolder;
+    font-size: larger;
+}
+.common
+{
+    height:200px;
+    background-color: white;
+    padding-top: 30px;
+    padding-left: 10px;
+    font-weight: bolder;
+    font-size: large;
+    width: 250px;
+    position: relative;
+    left: 20px;
+    border-radius: 10px;
+}
+.finished>.sub-div-b1 button
+{
+    width: 300px;
+    height: 100px;
+}
+.sub-div1-bl>span
+{
+    display: inline-block;
+    height: 30px;
+    background-color: #ffeddf;
+    color:#ff8934;
+    width: 70px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 15px;
+}
+.btn-css
+{
+    border-radius: 50%;
+    background-color: #d3f4eb;
+    border: none;
+    height: 40px;
+    width: 40px;
+    position: relative;
+    left:100px;
+    color:#55d4b5;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: larger;
+}
+.sub-div1-b2>span
+{
+    display: inline-block;
+    height: 30px;
+    width: 100px;
+    background-color: #a1e7ff ;
+    color:#53d2fb;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 15px;
+}
+.special-btn
+{
+    border:2px dashed grey;
+    width:250px;
+    height: 50px;
+    position: relative;
+    left:20px;
+    top:50px;
+    font-size: larger;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.sub-div2-bl span
+{
+    display: inline-block;
+    height: 30px;
+    width: 80px;
+    background-color: #e7dff7 ;
+    color:#5f28ce;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 15px;
+}
+.sub-div3-bl span
+{
+    display: inline-block;
+    height: 30px;
+    width: 80px;
+    background-color: #fee0fb ;
+    color:#ff32eb;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 15px;
+} 
+.sub-div4-bl span
+{
+    display: inline-block;
+    height: 30px;
+    width: 80px;
+    background-color: #dee5ff ;
+    color:#2d5bff;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 15px;
+}
+.d-none
+{
+    display: none;
+}

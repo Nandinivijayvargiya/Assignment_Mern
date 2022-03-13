@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Instagram
+        </title>
+    <link rel="stylesheet" href="./index.css"/>
+    </head>
+        <body>
+                <div class="main-div" id="parent-div">
+                    <div>
+                        <div  class="top">
+                             <span class="time">
+                            9:41 AM
+                             </span>
+                             <span  class="line">
+
+                             </span>
+                            <img src="./images/full-battery.png"/>
+                        
+                        </div>
+                            <div class="top-middle">
+                                <img src="./images/camera.png" class="camera"/>
+                                <span class="text">
+                                    Instagram
+                                </span>
+                                <img src="./images/send.png" class="send"/>
+                            </div>
+                            <div class="stories" style="border-bottom: 1px solid darkgrey;">
+                                <p>
+                                    Stories
+                                </p>
+                                <img src="./images/man.png" class="image1" style="margin-left: 10px;" />
+                                <img src="./images/user (2).png" />
+                                <img src="./images/queen.png" />
+                                <img src="./images/user (1).png" />
+                                <img src="./images/user.png" />
+                            </div>
+                    </div>
+                    <div class="content">
+                        <div class="top-user">
+                            <img src="./images/queen.png"/>
+                            <a>Nandini Vijayvargiya</a>
+                        </div>
+                        <div class="upload-image">
+                            <img src="./images/nature.jpg"/>
+                            <div class="l-c-s">
+                                <a><img src="./images/heart.png" onclick="like()"></a>
+                                <a><img src="./images/comment.png"></a>
+                                <a><img src="./images/send.png"></a>
+                                <a><img src="./images/save-instagram.png" style="position: relative; left: 10px;"></a>
+                                <p id="likes">0 Likes</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <img src="./images/home.png" id="image1" style="display: inline-block; margin-left: -40px;" onclick="show_home()" />
+                        <img src="./images/search.png" id="image2" onclick="show_search()"/>
+                        <img src="./images/heart.png" id="image3" onclick="show_like()"/>
+                        <img src="./images/user.png"style="display: inline-block; margin-right: 30px;" id="image4" onclick="show_user()"/>
+                    </div>
+                </div>
+                <div class="search-div" id="search-container" style="display: none;">
+                    <div  class="top">
+                        <span class="time">
+                             9:41 AM
+                        </span>
+                        <span  class="line">
+
+                        </span>
+                       <img src="./images/full-battery.png"/>
+                   
+                   </div>
+                        <div class="top-search">
+                            <span class="seacrh-img">
+                                <img src="./images/search.png"/>
+                                </span>
+                                <input type="text" placeholder="Search here"/>
+                                <span class="image-explorer">
+                                <img src="./images/bb.jpg"/>
+                                <img src="./images/bn.jfif"/>
+                                <img src="./images/stone.jpg"/>
+                                <img src="./images/flower.jpg"/>
+                                </span>
+                                <div class="bottom">
+                                    <img src="./images/home.png" id="image1" style="display: inline-block; margin-left: -40px;" onclick="show_home()" />
+                                    <img src="./images/search.png" id="image2" onclick="show_search()"/>
+                                    <img src="./images/heart.png" id="image3" onclick="show_like()"/>
+                                    <img src="./images/user.png"style="display: inline-block; margin-right: 30px;" id="image4" onclick="show_user()"/>
+                                </div>
+                        </div>
+
+                </div>
+                <div class="activity-div" id="activity-container" style="display: none;">
+                    <div  class="top">
+                        <span class="time">
+                             9:41 AM
+                        </span>
+                        <span  class="line">
+
+                        </span>
+                       <img src="./images/full-battery.png"/>
+                   
+                   </div>
+                
+                <div class="likes">
+                    <span class="likes-1">
+                        <img src="./images/man.png"/> 
+                        <a>Tech Enthusiastic likes your photo.</a>
+                        <img src="./images/flower.jpg" style="margin-left: 30px;"/>
+                    </span>
+                    <span class="likes-1">
+                        <img src="./images/man (1).png"/> 
+                        <a>Tech Enthusiastic likes your photo.</a>
+                        <img src="./images/bn.jfif" style="margin-left: 30px;"/>
+                    </span>
+                    <span class="likes-1">
+                        <img src="./images/queen.png"/> 
+                        <a>Queen started following you.</a>
+                        <button style="background-color: blue; border: none; position: relative; top:30px;left: 50px; width: 100px; height: 40px; border-radius: 5px;">Follow</button>
+                    </span>
+                    
+                    
+                </div>
+                <div class="bottom" style="padding-top: 20px; position: relative;top: 270px;">
+                    <img src="./images/home.png" id="image1" style="display: inline-block; margin-left: -40px;" onclick="show_home()" />
+                    <img src="./images/search.png" id="image2" onclick="show_search()"/>
+                    <img src="./images/heart.png" id="image3" onclick="show_like()"/>
+                    <img src="./images/user.png"style="display: inline-block; margin-right: 30px;" id="image4" onclick="show_user()"/>
+                </div>
+                </div>
+                <div class="profile-div" id="profile-container" style="display: none;">
+                    <div  class="top">
+                        <span class="time">
+                             9:41 AM
+                        </span>
+                        <span  class="line">
+
+                        </span>
+                       <img src="./images/full-battery.png"/>
+                       </div>
+                        <div class="profile-user">
+                        <span>
+                            <img src="./images/user (2).png"/>
+                        </span>
+                    <span class="all-info">
+                        <a>
+                            60
+                        </a>
+                        <p>
+                            POSTS
+                        </p>
+                        <a>
+                            400
+                        </a>
+                        <p>
+                           FOLLOWERS
+                        </p>
+                        <a>
+                            90
+                        </a>
+                        <p>
+                           FOLLOWING
+                        </p>
+                    <button>
+                        EDIT PROFILE
+                    </button>
+                </span>
+                <div class="profile-user-image">
+                    <div class="image-1">
+                        <img src="./images/bb.jpg"/>
+                        <img src="./images/bn.jfif"/>
+                        <img src="./images/nature.jpg"/>
+                        <img src="./images/stone.jpg"/>
+                        <img src="./images/flower.jpg"/>
+                        <img src="./images/images.jfif"/>
+                    </div>
+                <div class="bottom" style="padding-top: 20px; position: relative;top: -50px; left: -20px;">
+                    <img src="./images/home.png" id="image1" style="display: inline-block; margin-left: -40px;" onclick="show_home()" />
+                    <img src="./images/search.png" id="image2" onclick="show_search()"/>
+                    <img src="./images/heart.png" id="image3" onclick="show_like()"/>
+                    <img src="./images/user.png"style="display: inline-block; margin-right: 30px;" id="image4" onclick="show_user()"/>
+                </div>
+                </div>
+            </div>
+                </div>
+                    
+        <script src="./index.js"></script>
+        </body>
+    </html>
