@@ -12,6 +12,10 @@ const second_fn=function()
         if(sec==0){
             sec=60;
             min--;
+         if(min<0)
+        {
+            min=5;
+        }
             setInterval(second_fn,1000);
         }       
     }
